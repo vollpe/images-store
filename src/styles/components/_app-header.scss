@@ -1,0 +1,21 @@
+.app-header {
+  padding: 10px 0 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  background-color: $c-header-bg;
+  color: $c-header-text;
+  height: 45px;
+}
+
+.header-logo {
+  align-items: center;
+  color: $c-header-logo;
+  display: flex;
+}
+
+@media only screen and (max-width: 500px) {
+  .header-logo {
+    display: none;
+  }
+}

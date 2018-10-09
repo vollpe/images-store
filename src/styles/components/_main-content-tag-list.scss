@@ -1,0 +1,19 @@
+.main-content-tag-list {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tag-button {
+  background-color: $c-tag-button-bg;
+  color: $c-tag-button-text;
+  font-weight: bold;
+  margin: 5px;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.tag-button-active {
+  background-color: $c-tag-button-bg-active;
+  color: $c-tag-button-text-active;
+}

@@ -1,0 +1,14 @@
+.main-content-load-more-button {
+  background-color: $c-main-content-load-more-button-bg;
+  box-sizing: border-box;
+  color: $c-main-content-load-more-button-text;
+  display: block;
+  font-weight: bold;
+  margin: 0 auto 2em;
+  padding: 15px;
+  transition: 0.3s;
+
+  &:hover {
+    background-color: $c-main-content-load-more-button-bg-hover;
+  }
+}

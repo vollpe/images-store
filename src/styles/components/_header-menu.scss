@@ -1,0 +1,21 @@
+.header-menu {
+  align-items: center;
+  display: inline-flex;
+  height: 100%;
+}
+
+.header-menu-element {
+  align-items: center;
+  color: $c-header-text;
+  height: 100%;
+  display: flex;
+  font-weight: bold;
+  margin: 0;
+  padding: 10px 15px;
+  text-decoration: none;
+  transition: 0.3s;
+
+  &:hover {
+    background-color: $c-header-menu-element-bg;
+  }
+}

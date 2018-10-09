@@ -1,0 +1,39 @@
+.main-content-header-box {
+  border-bottom: 1px solid $c-main-content-header-box-border;
+  display: flex;
+  padding: 2em 1em 1em;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.main-content-header-title {
+  font-size: 3em;
+  line-height: unset;
+  margin: 0;
+}
+
+
+@media only screen and (max-width: 465px) {
+  .main-content-header-title {
+    font-size: 2em;
+  }
+}
+
+.main-content-items-count-box {
+  display: flex;
+  padding: 1em;
+}
+
+.item-count {
+  color: $c-clear-tags;
+  font-weight: bold;
+  padding-right: 1em;
+}
+
+.clear-tags {
+  color: $c-items-count;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0;
+}
